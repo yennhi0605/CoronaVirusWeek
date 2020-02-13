@@ -1,0 +1,12 @@
+Create table Product(
+    id int(10) not null primary key auto_increment,
+    name varchar(255),
+    type varchar(255),
+    sale varchar(255),
+    img varchar(50),
+    price int,
+    oldprice int
+);
+Insert into Product value(null, "Máy lọc nước Kangraroo", "Hydrogen KG100HC vỏ tủ VTU", "- 28%", "img1.jpg", 8290000, 11500000); 
+Insert into Product value(null, "Máy lọc nước Kangraroo", "Hydrogen KG100HG không vỏ", "- 34%", "img2.jpg", 5980000, 9100000); 
+Insert into Product value(null, "Máy lọc nước Kangraroo", "Hydrogen KG100HC vỏ tủ VTU", "- 33%", "img3.jpg", 6480000, 9700000); 
